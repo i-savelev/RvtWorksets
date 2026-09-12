@@ -32,7 +32,7 @@ namespace Worksets
         /// <summary>Путь к embedded resource-изображению.</summary>
         public static string IS_IMAGE => "RvtWorksets.Resources.worksets.png";
         /// <summary>Описание команды для пользователя.</summary>
-        public static string IS_DESCRIPTION => "Инструкция:\nСкрипт автоматически присваивает элементам рабочие наборы по заданным правилам\nПодробнее: https://github.com/i-savelev/ISTools/wiki/Рабочие-наборы";
+        public static string IS_DESCRIPTION => "Скрипт автоматически присваивает элементам рабочие наборы по заданным правилам";
         //---PluginsManager---//
 
         private readonly string _tempXmlPath = Path.Combine(
